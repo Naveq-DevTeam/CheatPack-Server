@@ -8,7 +8,7 @@
 		{
 			"name": "Testportal Cheat",
 			"author": ["Lummit"],
-      "github": "https://github.com/Lumm1t/",
+      		"github": "https://github.com/Lumm1t/",
 			"description_en": "Testportal Cheat allows you to bypass the \"Honest Respondent\" TeChNoLoGy, which allows you to move freely between browser tabs / windows.",
 			"description_pl": "Cheat do Testportal umożliwia ominięcie TeChNoLoGiI \"Uczciwy Rozwiązujący\", co pozwala na swobodne przemieszczanie się między kartami przeglądarki/oknami.",
 			"comments_en": "An experimental function bypassing the time limit is also available when the time is set for a single question. However, its use may negatively impact the test, and we cannot guarantee that it will work.",
@@ -17,7 +17,7 @@
 		{
 			"name": "Quizizz Cheat",
 			"author": ["EastArctica"],
-      "github": "https://github.com/EastArctica/",
+      		"github": "https://github.com/EastArctica/",
 			"description_en": "Quizizz Cheat highlights the correct quiz answers and can also automatically answer them.",
 			"description_pl": "Cheat do Quizizz podświetla poprawne odpowiedzi w quizach, a także może automatycznie na nie odpowiadać.",
 			"comments_en": "For some questions, it is not possible to detect the correct answers, and as a result, the cheat cannot answer or highlight them.",
@@ -26,9 +26,18 @@
 		{
 			"name": "Brainly Cheat",
 			"author": ["Naveq"],
-      "github": "https://github.com/Naveq/",
+      		"github": "https://github.com/Naveq/",
 			"description_en": "Brainly Cheat allows you to bypass the daily limit for displaying homework answers.",
 			"description_pl": "Cheat do Brainly pozwala na ominięcie dziennego limitu wyświetleń rozwiązań zadań.",
+			"comments_en": "",
+			"comments_pl": ""
+		},
+		{
+			"name": "Librus Cheat",
+			"author": ["RouNNdeL"],
+      		"github": "https://github.com/RouNNdeL",
+			"description_en": "Cheat for Librus Synergia allows you to force the average rating to be displayed if the school administrator has disabled this option.",
+			"description_pl": "Cheat do Librus Synergia pozwala na wymuszenie wyświetlenia średniej ocen, w przypadku, gdy szkolny administrator zablokował tę opcję.",
 			"comments_en": "",
 			"comments_pl": ""
 		}
