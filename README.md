@@ -1,5 +1,5 @@
 # Naveq CheatPack (Server) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
-Google Chrome browser extension that allows you to cheat on learning platforms such as Test💩💩, Quizizz or Brainly.
+ Server for Naveq-CheatPack - Google Chrome browser extension that allows you to cheat on learning platforms such as Test💩💩, Quizizz or Brainly.
 
 ## Cheats
 Cheats are available for:
@@ -24,7 +24,7 @@ Pull requests are very welcome. For major changes, please open an issue first to
 If you want to make changes to a cheat mechanism, not CheatPack mechanics, open Pull Request in the cheat creator repository. The exception here is Brainly Cheat, which is so simple that there was no need to create a new repository for it.
 
 ## Cheat mechanics
-Cheats are downloaded from web server, so they're almost up-to-date. Original cheat repos are here: [Testportal](https://github.com/Lumm1t/anti-testportal), [Quizizz](https://github.com/EastArctica/JS-Plugins).
+Cheats are downloaded from web server (this GitHub repo via JSDelivr CDN), so they're almost up-to-date. Original cheat repos are here: [Testportal](https://github.com/Lumm1t/anti-testportal), [Quizizz](https://github.com/EastArctica/JS-Plugins), [Brainly](https://github.com/Naveq/BrainlyCheat).
 
 ## Motivation
 I just wanted to do anything other than watching anime and I created this CheatPack lol
