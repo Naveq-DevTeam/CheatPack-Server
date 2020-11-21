@@ -75,6 +75,6 @@ const anti_blurspy = document.createTextNode(`
         window.onfocus = null;
     }, 100);
 `);
-inject.appendChild(antiBlurBypass);
+inject.appendChild(anti_blurspy);
 inject.type = "text/javascript"; 
 document.body.appendChild(inject);
