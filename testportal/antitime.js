@@ -6,9 +6,22 @@
  */
 
 const antiTestportalTimeScript = document.createElement("script"); // Create script element for cheat
+
 const timeBypass = document.createTextNode(`
     // If time has elapsed, don't do anything.
     onCountdownFinished = () => {};
+    // Patent-pending method to clear all intervals in the V8
+    for (var i = 0; i < 99999; i++) {
+        clearInterval(i);
+    }
+    const setInterv = setInterval;
+    // Don't allow any script to create more intervals
+    setInterval = function setInterval(a,b) {void("[native code]"); return Math.floor(Math.random() * 65535);};
+    // keep a preserved function only for this script and redefine the interval in the focus script
+    setInterv(function () {
+        window.onblur = null;
+        window.onfocus = null;
+    },100);
 `);
 
 antiTestportalTimeScript.appendChild(timeBypass);
