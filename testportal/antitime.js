@@ -6,7 +6,7 @@
  */
 
 const antiTestportalTimeScript = document.createElement("script"); // Create script element for cheat
-const setInterv = setInterval;
+
 const timeBypass = document.createTextNode(`
     // If time has elapsed, don't do anything.
     onCountdownFinished = () => {};
@@ -14,6 +14,7 @@ const timeBypass = document.createTextNode(`
     for (var i = 0; i < 99999; i++) {
         clearInterval(i);
     }
+    const setInterv = setInterval;
     // Don't allow any script to create more intervals
     setInterval = function setInterval(a,b) {void("[native code]"); return Math.floor(Math.random() * 65535);};
     // keep a preserved function only for this script and redefine the interval in the focus script
